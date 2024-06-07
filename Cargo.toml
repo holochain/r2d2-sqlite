@@ -1,5 +1,5 @@
 [package]
-name = "r2d2_sqlite"
+name = "hc_r2d2_sqlite"
 version = "0.24.0"
 authors = [
   "Jovansonlee Cesar <ivanceras@gmail.com>",
@@ -41,3 +41,4 @@ features = ["trace"]
 [features]
 bundled = ["rusqlite/bundled"]
 bundled-sqlcipher = ["rusqlite/bundled-sqlcipher"]
+bundled-sqlcipher-vendored-openssl = ["rusqlite/bundled-sqlcipher-vendored-openssl"]
